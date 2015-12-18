@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <declare-styleable name="FreeSatelliteView">
+        <attr name="radius" format="dimension"></attr>
+        <attr name="mainImg" format="reference"></attr>
+        <attr name="interceptAnim" format="boolean"></attr>
+        <attr name="animDuration" format="integer"></attr>
+
+        <attr name="mainImgWidth" format="dimension"></attr>
+        <attr name="mainImgHeight" format="dimension"></attr>
+        <attr name="itemImgWidth" format="dimension"></attr>
+        <attr name="itemImgHeight" format="dimension"></attr>
+
+        <attr name="content_gravity" >
+            <flag name="left" value="1"></flag>
+            <flag name="top" value="2"></flag>
+            <flag name="right" value="4"></flag>
+            <flag name="bottom" value="8"></flag>   <!--flag可以多选-->
+        </attr>
+    </declare-styleable>
+</resources>

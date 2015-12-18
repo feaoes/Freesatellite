@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:layout_height="match_parent" >
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start animation"
+        android:onClick="startAnimation"
+        android:layout_centerInParent="true"
+        />
+
+    <com.feaoes.freesatellitelibrary.FreeSatelliteView
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:content_gravity="right|bottom"
+
+        android:id="@+id/freeSV"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        app:mainImgHeight="40dp"
+        app:mainImgWidth="40dp"
+        app:itemImgHeight="30dp"
+        app:itemImgWidth="30dp"
+        app:animDuration="400"
+        app:interceptAnim="false"
+        app:radius="200dp"
+        app:mainImg="@drawable/a1"
+        />
+
+
+</RelativeLayout>
